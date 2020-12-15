@@ -4,6 +4,7 @@ title BatOS (Booting)
 set red=n
 set green=n
 set black=n
+set github=n
 
 
 echo Booting BatOS
@@ -67,6 +68,7 @@ set /p d3=
 set /p red=
 set /p green=
 set /p black=
+set /p github=
 )<BatOSsave.dlb
 goto menu
 
@@ -79,14 +81,16 @@ echo %d3%
 echo %red%
 echo %green%
 echo %black%
+echo %github%
 )>BatOSsave.dlb
 goto menu
 
 :menu
-title BatOS
+title BatOS (Github Edition)
 if %red% EQU y color 47
 if %green% EQU y color 2f
 if %black% EQU y color 07
+if %github% EQU y color
 cls
 echo --Welcome %Name% to BatOS--
 echo 1) Clock
@@ -208,12 +212,14 @@ cls
 echo 1) Red
 echo 2) Green
 echo 3) Black
+echo 4) Github
 echo E) exit to menu
 set /p input=Choice: 
 
 if %input% == 1 goto red
 if %input% == 2 goto green
 if %input% == 3 goto black
+if %input% == 4 goto github
 if %input% == e goto menu
 if %input% == E goto menu
 
@@ -222,6 +228,7 @@ color 47
 set red=y
 set green=n
 set black=n
+set github=n
 goto save
 
 :green
@@ -229,6 +236,7 @@ color 2f
 set green=y
 set red=n
 set black=n
+set github=n
 goto save
 
 :black
@@ -236,8 +244,16 @@ color 07
 set green=n
 set red=n
 set black=y
+set github=n
 goto save
 
+:github
+color 70
+set green=n
+set red=n
+set black=n
+set github=y
+goto save
 
 :cn
 cls 
