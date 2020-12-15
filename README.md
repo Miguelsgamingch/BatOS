@@ -20,3 +20,12 @@ Flaws:
 1 account slot
 
 Have to change password in code and not in BatOS itself
+
+
+Download Instructions:
+
+Download the BatOS Folder
+
+Double Click on BatOS.bat in the folder
+
+Enjoy!
