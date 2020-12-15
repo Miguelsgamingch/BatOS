@@ -10,7 +10,7 @@ A very basic notepad
 
 A video program that has 1 (Removing in Next update) premade video (not mp4, still pure batch) 
 
-3 background colors
+3 background colors (+GITHUB EXCULSIVE BACKROUND)
 
 Clock 
 
