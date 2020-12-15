@@ -2,6 +2,8 @@
 
 BatOS is a Fake Operating System made with Pure Batch
 
+Itch.io Link: https://batos-creator.itch.io/batos-version
+
 
 Features:
 A very basic notepad
