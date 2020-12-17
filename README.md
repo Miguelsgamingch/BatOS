@@ -26,7 +26,7 @@ Have to change password in code and not in BatOS itself
 
 Download Instructions:
 
-Download the BatOS Folder
+Download the BatOS Folder (do this by clicking Code:, then clicking Download .zip)
 
 Double Click on BatOS.bat in the folder
 
