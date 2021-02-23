@@ -1,8 +1,10 @@
 # BatOS
 
+Out of Date, will add new update later (maybe)
+
 BatOS is a Fake Operating System made with Pure Batch
 
-Itch.io Link: https://batos-creator.itch.io/batos-version
+Itch.io Link (LATEST VERSION): https://batos-creator.itch.io/batos-version
 
 
 Features:
